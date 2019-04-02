@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset"utf-8">
+    <title>Psychic Game</title>
+    <body>
+    <script type= "text/javascript">
+    var randomNumber = getRandomNumber (10);
+    var guess;
+    var guessCount = 0;
+    var correctGuess = false; 
+
+function getRandomNumber (guess){
+    var num = Math.floor(Math.random()*guess)
+    return num;
+
+}
+while(true){
+    guess = prompt("What number am I thinking of");
+    guessCount += 1;
+    if(parseInt(guess) === randomNumber){
+        correctGuess = true
+        break;
+        var win = 0;
+
+    }
+}    
+
+//function myFunction1() {
+  //  if (test3.innerHTML == "You win!") 
+    //win = win + 1;
+}
+ 
+   
+
+document.write("<h1> You beat me human!</h1>")
+document.write("<h1> Did  your opposable thumbs get in the way?</h1>")
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </script>
+</head>
+</html>
